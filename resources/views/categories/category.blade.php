@@ -6,15 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+
     <div>
         <h1>CateGories Lists</h1>
+
         
-        @foreach ($lists as $data)
-        <p>{{$data['name']}} : {{$data['age']}} : {{$data['city']}}</p>
-        @endforeach
-       
-        
+
+
     </div>
 </body>
 </html>
