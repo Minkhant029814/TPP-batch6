@@ -10,7 +10,7 @@
     <div>
         <!-- Be present above all else. - Naval Ravikant -->
         <p>
-            {{$products['id']}} : {{$products['name']}} : {{$products['description']}} : {{$products['price']}}
+            Product ID:  {{$products['id']}} <br> Product Name: {{$products['name']}}  <br> Product description : {{$products['description']}} <br> Product Price : {{$products['price']}}
 
         </p>
         <div>
